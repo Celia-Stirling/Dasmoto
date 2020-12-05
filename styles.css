@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+    padding: 0;
+  }
+
+body  {
+    font-family: Helvetica;
+}
+
+header {
+    background-image: url(pattern.webp);
+    font-size: 65px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    margin: 40px 10px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    margin: 20px 10px;
+}
+
+#brushes > h2 {
+    background-color: mediumspringgreen;
+}
+
+#frames > h2 {
+    background-color: lightcoral;
+}
+
+#paint > h2 {
+    background-color: skyblue;
+}
+
+span {
+    font-weight: bold;
+    color: blue;
+}
+
+img {
+    margin: 10px;
+}
+
+h3, p {
+    margin: 10px;
+}
